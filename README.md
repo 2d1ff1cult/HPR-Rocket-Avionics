@@ -10,6 +10,10 @@ Features the uses of remove before flight (RBF) tags connected to SPDT switches 
 
 Why? GPS cold starts are a big issue; starting the GPS at least 15 minutes before the entire data logging circuit allows for satellite acquisition as you drive to rocket launch destination.
 
+Sample data looks like this:
+![sampledata](https://github.com/2d1ff1cult/HPR-Rocket-Avionics/assets/48054365/d7054caf-d038-4269-9d08-bafcae685749)
+
+
 Second iteration will be an upgrade to 900MHz with RYLR998 and data logging. Possibly even control loops for fin actuation.
 
 Future goals involve creating an OSD visualization of the data (which are altitude, air pressure, speed, XYZ accel, and GPS) similar to SpaceX launches. This is what inspired this work
